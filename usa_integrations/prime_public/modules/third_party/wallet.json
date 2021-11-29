@@ -1,0 +1,10 @@
+{
+    "name": "Wallet",
+    "plural": "Wallet",
+    "base": "Model",
+    "properties": {},
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
+}

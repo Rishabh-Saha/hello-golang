@@ -1,0 +1,10 @@
+{
+	"name": "Billing",
+	"plural": "Billing",
+	"base": "Model",
+	"properties": {},
+	"validations": [],
+	"relations": {},
+	"acls": [],
+	"methods": {}
+}

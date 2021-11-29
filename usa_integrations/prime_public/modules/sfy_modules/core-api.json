@@ -1,0 +1,10 @@
+{
+	"name": "CoreApi",
+	"plural": "CoreApi",
+	"base": "Model",
+	"properties": {},
+	"validations": [],
+	"relations": {},
+	"acls": [],
+	"methods": {}
+}

@@ -1,0 +1,10 @@
+{
+	"name": "Plan",
+	"plural": "Plan",
+	"base": "Model",
+	"properties": {},
+	"validations": [],
+	"relations": {},
+	"acls": [],
+	"methods": {}
+}

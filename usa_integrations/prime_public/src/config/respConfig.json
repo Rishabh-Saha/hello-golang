@@ -1,0 +1,22 @@
+{
+    "/financepartners/dmi/receiveOfferDetails1": {
+        "ServifyTest": {
+            "keys": {
+                "app": "farman"
+            }
+        },
+        "ServifyTest_Encrypt": {
+            "keys": {
+                "app": "ali"
+            }
+        }
+    },
+    "/Auth/generateToken1": {
+        "ServifyTest": {
+            "keys": {
+                "token": "tok",
+                "ttl": "tt"
+            }
+        }
+    }
+}

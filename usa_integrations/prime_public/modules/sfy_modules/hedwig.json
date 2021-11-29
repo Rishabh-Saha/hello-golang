@@ -1,0 +1,10 @@
+{
+	"name": "Hedwig",
+	"plural": "Hedwig",
+	"base": "Model",
+	"properties": {},
+	"validations": [],
+	"relations": {},
+	"acls": [],
+	"methods": {}
+}

@@ -1,0 +1,165 @@
+{
+	"_meta": {
+		"sources": [
+			"loopback/common/models",
+			"loopback/server/models",
+			"../common/models",
+			"./models",
+			"../modules",
+			"../modules/cache",
+			"../modules/open",
+			"../modules/client_details",
+			"../modules/common",
+			"../modules/third_party",
+			"../modules/sfy_modules",
+			"../modules/source_entity_mapping",
+			"../modules/auth"
+		],
+		"mixins": [
+			"loopback/modules/mixins",
+			"loopback/server/mixins",
+			"../modules/mixins",
+			"./mixins"
+		]
+	},
+	"Paytm": {
+		"dataSource": "db",
+		"public": true
+	},
+	"TwentyFourSeven": {
+		"dataSource": "db",
+		"public": false
+	},
+	"ServiceRequest": {
+		"dataSource": "mysql_prime",
+		"public": true
+	},
+	"ExternalClient": {
+		"dataSource": "mysql_prime",
+		"public": false
+	},
+	"WhitelistedIP": {
+		"dataSource": "mysql_prime",
+		"public": false
+	},
+	"ProductMapping": {
+		"dataSource": "mysql_prime",
+		"public": false
+	},
+	"Auth": {
+		"dataSource": "mysql_prime",
+		"public": true
+	},
+	"SimpleCache": {
+		"dataSource": "kvdb",
+		"public": true
+	},
+	"RedisCache": {
+		"dataSource": "db",
+		"public": true
+	},
+	"Open": {
+		"dataSource": "db",
+		"public": true
+	},
+	"Master": {
+		"dataSource": "db",
+		"public": true
+	},
+	"Part": {
+		"dataSource": "db",
+		"public": true
+	},
+	"Hedwig": {
+		"dataSource": "db",
+		"public": true
+	},
+	"Integration": {
+		"dataSource": "db",
+		"public": true
+	},
+	"TradeIn": {
+		"dataSource": "db",
+		"public": true
+	},
+  	"CoreApi": {
+		"dataSource": "db",
+		"public": true
+	},
+	"ClientWhitelistedAPI": {
+		"dataSource": "mysql_prime",
+		"public": false
+	},
+	"ApiList": {
+		"dataSource": "mysql_prime",
+		"public": true
+	},
+	"Otp": {
+		"dataSource": "db",
+		"public": true
+	},
+	"Consumer": {
+		"dataSource": "db",
+		"public": true
+	},
+	"ConsumerProduct": {
+		"dataSource": "db",
+		"public": true
+	},
+	"Plan": {
+		"dataSource": "db",
+		"public": true
+	},
+	"Aegis": {
+		"dataSource": "db",
+		"public": true
+	},
+	"Voucher": {
+		"dataSource": "db",
+		"public": true
+	},
+	"ConsumerServicerequest": {
+		"dataSource": "db",
+		"public": true
+	},
+	"CarrierIntegration": {
+		"dataSource": "db",
+		"public": true
+	},
+	"Claim": {
+		"dataSource": "db",
+		"public": true
+	},
+	"SoldPlan": {
+		"dataSource": "db",
+		"public": true
+	},
+	"Wallet": {
+		"dataSource": "db",
+		"public": true
+	},
+	"User": {
+		"dataSource": "db",
+		"public": true
+	},
+	"Diagnosis": {
+		"dataSource": "db",
+		"public": true
+	},
+	"Billing": {
+		"dataSource": "db",
+		"public": false
+	},
+	"WebApp": {
+		"dataSource": "db",
+		"public": false
+	},
+	"Logistics": {
+		"dataSource": "db",
+		"public": true
+	},
+	"Contract": {
+		"dataSource": "db",
+		"public": true
+	}
+}

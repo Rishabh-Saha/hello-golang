@@ -1,0 +1,16 @@
+var cryptoObj = {
+    'Paytm': [{
+        interface: 'Api',
+        SECRET_KEY: 'P6W6PWQVUYCDOAO9',
+        SALT: 'K2AA7CFDP6G0KX64O5K6GS5BLM4YZUE0BZK9ZBPYGC8CE0FAU4FPU6VNA0FOQFEN',
+        APPLICATION_CONSTANT: 'RBV1UC9HBP'
+    }],
+    '24x7Around': [{
+        interface: 'Api',
+        SECRET_KEY: 'Z1DBK3EH01ZUMPJU',
+        SALT: 'QW8QQW4VVKQEQYXVRRY3TTKMTXRHNCNSOPSXFZFF9LI37ZZZXQUSDUN8EGFTRQKN',
+        APPLICATION_CONSTANT: '6VFKKLZ1Y4'
+    }]
+
+}
+exports.cryptoObj = cryptoObj;

@@ -1,0 +1,10 @@
+{
+	"name": "RedisCache",
+	"plural": "RedisCache",
+	"base": "PersistedModel",
+	"properties": {},
+	"validations": [],
+	"relations": {},
+	"acls": [],
+	"methods": {}
+}

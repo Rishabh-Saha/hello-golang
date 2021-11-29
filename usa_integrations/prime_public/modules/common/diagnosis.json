@@ -1,0 +1,10 @@
+{
+	"name": "Diagnosis",
+	"plural": "Diagnosis",
+	"base": "Model",
+	"properties": {},
+	"validations": [],
+	"relations": {},
+	"acls": [],
+	"methods": {}
+}

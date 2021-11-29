@@ -1,0 +1,32 @@
+stages:
+  - build
+  - test
+
+cache:
+  untracked: true
+  key:
+    files:
+      - package.json
+  paths:
+    - node_modules/
+
+build:
+  stage: build
+  only:
+    - merge_requests
+    - client_staging
+  tags:
+    - ci
+  script:
+    - npm install
+
+
+test:
+  stage: test
+  only:
+    - merge_requests
+    - client_staging
+  tags:
+    - ci
+  script:
+    - npm run test

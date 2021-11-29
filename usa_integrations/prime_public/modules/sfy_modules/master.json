@@ -1,0 +1,10 @@
+{
+	"name": "Master",
+	"plural": "Masters",
+	"base": "Model",
+	"properties": {},
+	"validations": [],
+	"relations": {},
+	"acls": [],
+	"methods": {}
+}

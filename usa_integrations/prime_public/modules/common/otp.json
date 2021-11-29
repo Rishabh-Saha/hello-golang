@@ -1,0 +1,10 @@
+{
+	"name": "Otp",
+	"plural": "Otp",
+	"base": "Model",
+	"properties": {},
+	"validations": [],
+	"relations": {},
+	"acls": [],
+	"methods": {}
+}

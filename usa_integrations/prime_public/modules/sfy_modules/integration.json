@@ -1,0 +1,10 @@
+{
+	"name": "Integration",
+	"plural": "Integration",
+	"base": "Model",
+	"properties": {},
+	"validations": [],
+	"relations": {},
+	"acls": [],
+	"methods": {}
+}

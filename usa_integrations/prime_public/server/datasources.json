@@ -1,0 +1,21 @@
+{
+	"db": {
+		"name": "db",
+		"connector": "memory"
+	},
+	"mysql_prime": {
+		"host": "172.21.3.29",
+		"port": 3306,
+		"database": "servify_prime",
+		"password": "0e9oe##887",
+		"name": "mysql_prime",
+		"user": "stagwrite",
+		"connector": "mysql",
+		"connectTimeout": 100000,
+		"acquireTimeout": 100000
+	},
+	"kvdb": {
+		"name": "kvdb",
+		"connector": "kv-memory"
+	}
+}

@@ -1,0 +1,13 @@
+all:
+  hosts:
+    ubuntu@54.145.85.132
+    ubuntu@3.80.184.191
+    ubuntu@54.175.133.239
+  children:
+    integration_test_servers:
+      hosts:
+        ubuntu@54.145.85.132:
+    deploy_servers:
+      hosts:
+        ubuntu@3.80.184.191:
+        ubuntu@54.175.133.239:

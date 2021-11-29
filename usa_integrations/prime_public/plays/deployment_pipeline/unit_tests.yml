@@ -1,0 +1,7 @@
+---
+
+- name: Run Unit Tests
+  hosts: localhost
+
+  roles:
+    - { role: roles/deployment_pipeline/unit_tests }

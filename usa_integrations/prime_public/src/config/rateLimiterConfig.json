@@ -1,0 +1,486 @@
+{
+    "ServifyTest": {
+        "SoldPlan/cancelContract": {
+            "hits": 5000,
+            "window": 24
+        },
+        "Claim/getClaimDetails": {
+            "hits": 5000,
+            "window": 24
+        },
+        "SoldPlan/createSoldPlan": {
+            "hits": 3,
+            "window": 60
+        },
+        "SoldPlan/updateSoldPlanDetails": {
+            "hits": 5000,
+            "window": 24
+        },
+        "Auth/generateToken": {
+            "hits": 10,
+            "window": 60
+        },
+        "ServiceRequest/getServiceStatus":{
+            "hits": 3,
+            "window": 60
+        },
+        "default": {
+            "hits": 5000,
+            "window": 24
+        }
+    },
+    "OP_IN_STAG": {
+        "default": {
+            "hits": 5000,
+            "window": 24
+        }
+    },
+    "CROMA_IN _STAG": {
+        "default": {
+            "hits": 5000,
+            "window": 24
+        }
+    },
+    "PAYTM_STAG": {
+        "default": {
+            "hits": 5000,
+            "window": 24
+        }
+    },
+    "SANGEETHA_STAG": {
+        "default": {
+            "hits": 5000,
+            "window": 24
+        }
+    },
+    "OP_BENEFIT": {
+        "Auth/generateToken": {
+            "hits": 5000,
+            "window": 24
+        },
+        "Open/InventoryManagement": {
+            "hits": 5000,
+            "window": 24
+        },
+        "Otp/requestOTP": {
+            "hits": 5000,
+            "window": 24
+        },
+        "Consumer/createOrUpdateExternalConsumer": {
+            "hits": 5000,
+            "window": 24
+        },
+        "Consumer/getExternalConsumer": {
+            "hits": 5000,
+            "window": 24
+        },
+        "ConsumerProduct/createOrUpdateExternalConsumerProduct": {
+            "hits": 5000,
+            "window": 24
+        },
+        "Plan/activateBenefits": {
+            "hits": 5000,
+            "window": 24
+        },
+        "ServiceRequest/fetchSlots": {
+            "hits": 5000,
+            "window": 24
+        },
+        "SoldPlan/createSoldPan": {
+            "hits": 5000,
+            "window": 24
+        },
+        "SoldPlan/cancelContract": {
+            "hits": 5000,
+            "window": 24
+        },
+        "SoldPlan/updateSoldPlanDetails": {
+            "hits": 5000,
+            "window": 24
+        },
+        "default": {
+            "hits": 5000,
+            "window": 24
+        }
+    },
+    "OP_BENEFIT_TEST": {
+        "Auth/generateToken": {
+            "hits": 5000,
+            "window": 24
+        },
+        "Open/InventoryManagement": {
+            "hits": 5000,
+            "window": 24
+        },
+        "default": {
+            "hits": 5000,
+            "window": 24
+        }
+    },
+    "SAMSUNG_STAG": {
+        "Auth/generateToken": {
+            "hits": 5000,
+            "window": 24
+        },
+        "Claim/getClaimList": {
+            "hits": 5000,
+            "window": 24
+        },
+        "Claim/getClaimDetails": {
+            "hits": 5000,
+            "window": 24
+        },
+        "Claim/updateClaimStatus": {
+            "hits": 5000,
+            "window": 24
+        },
+        "Claim/updateClaimExpenditure": {
+            "hits": 5000,
+            "window": 24
+        },
+        "SoldPlan/createSoldPlan": {
+            "hits": 5000,
+            "window": 24
+        },
+        "SoldPlan/getContractDetails": {
+            "hits": 5000,
+            "window": 24
+        },
+        "SoldPlan/cancelContract": {
+            "hits": 5000,
+            "window": 24
+        },
+        "SoldPlan/getContractLis": {
+            "hits": 5000,
+            "window": 24
+        },
+        "Wallet/checkAccountBalance": {
+            "hits": 5000,
+            "window": 24
+        },
+        "Wallet/unlinkPaymentAccount": {
+            "hits": 5000,
+            "window": 24
+        },
+        "default": {
+            "hits": 5000,
+            "window": 24
+        }
+    },
+    "BRIGHTSTAR_STAG": {
+        "Auth/generateToken": {
+            "hits": 5000,
+            "window": 24
+        },
+        "ServiceRequest/fetchSlots": {
+            "hits": 5000,
+            "window": 24
+        },
+        "ServiceRequest/checkServiceAvailability": {
+            "hits": 5000,
+            "window": 24
+        },
+        "ServiceRequest/createServiceRequest": {
+            "hits": 5000,
+            "window": 24
+        },
+        "default": {
+            "hits": 5000,
+            "window": 24
+        }
+    },
+    "GLYDE_STAG": {
+        "Auth/generateToken": {
+            "hits": 5000,
+            "window": 24
+        },
+        "default": {
+            "hits": 5000,
+            "window": 24
+        }
+    },
+    "BOMBAY_SW_STAG": {
+        "Auth/generateToken": {
+            "hits": 5000,
+            "window": 24
+        },
+        "TradeIn/getDiagnosisConfig": {
+            "hits": 5000,
+            "window": 24
+        },
+        "default": {
+            "hits": 5000,
+            "window": 24
+        }
+    },
+    "TEST_STAG": {
+        "default": {
+            "hits": 5000,
+            "window": 24
+        }
+    },
+    "SJSINC_STAG": {
+        "default": {
+            "hits": 5000,
+            "window": 24
+        }
+    },
+    "AZIZ_TIN_STAG": {
+        "default": {
+            "hits": 5000,
+            "window": 24
+        }
+    },
+    "AMAZON_ABHISHEK_STAG": {
+        "default": {
+            "hits": 5000,
+            "window": 24
+        }
+    },
+    "XIAOMI_DEV": {
+        "default": {
+            "hits": 5000,
+            "window": 24
+        }
+    },
+    "XIAOMI_TEST": {
+        "default": {
+            "hits": 5000,
+            "window": 24
+        }
+    },
+    "SAMSUNG_SF_STAG": {
+        "SoldPlan/cancelContract": {
+            "hits": 5000,
+            "window": 24
+        },
+        "default": {
+            "hits": 5000,
+            "window": 24
+        }
+    },
+    "ASG_STAG": {
+        "Auth/generateToken": {
+            "hits": 5000,
+            "window": 24
+        },
+        "Voucher/createVoucher": {
+            "hits": 5000,
+            "window": 24
+        },
+        "default": {
+            "hits": 5000,
+            "window": 24
+        }
+    },
+    "GLYDE_TESSAB_STAG": {
+        "Auth/generateToken": {
+            "hits": 5000,
+            "window": 24
+        },
+        "SoldPlan/createSoldPlan": {
+            "hits": 5000,
+            "window": 24
+        },
+        "default": {
+            "hits": 5000,
+            "window": 24
+        }
+    },
+    "AMAZON_STAG": {
+        "Auth/generateToken": {
+            "hits": 5000,
+            "window": 24
+        },
+        "ConsumerProduct/iosCheck": {
+            "hits": 5000,
+            "window": 24
+        },
+        "default": {
+            "hits": 5000,
+            "window": 24
+        }
+    },
+    "NOKIA_STAG": {
+        "Auth/generateToken": {
+            "hits": 5000,
+            "window": 24
+        },
+        "default": {
+            "hits": 5000,
+            "window": 24
+        }
+    },
+    "APTRONIX_STAG": {
+        "Auth/generateToken": {
+            "hits": 5000,
+            "window": 24
+        },
+        "ServiceRequest/fetchSlots": {
+            "hits": 5000,
+            "window": 24
+        },
+        "ServiceRequest/createServiceRequest": {
+            "hits": 5000,
+            "window": 24
+        },
+        "Voucher/captureVoucherSales": {
+            "hits": 5000,
+            "window": 24
+        },
+        "default": {
+            "hits": 5000,
+            "window": 24
+        }
+    },
+    "BHARTIASSIST_STAG": {
+        "Auth/generateToken": {
+            "hits": 5000,
+            "window": 24
+        },
+        "SoldPlan/createSoldPlan": {
+            "hits": 5000,
+            "window": 24
+        },
+        "default": {
+            "hits": 5000,
+            "window": 24
+        }
+    },
+    "CLIENT_NAME": {
+        "default": {
+            "hits": 5000,
+            "window": 24
+        }
+    },
+    "ServifyTest_Encrypt": {
+        "default": {
+            "hits": 5000,
+            "window": 24
+        }
+    },
+    "AMYGB_STAGE": {
+        "Auth/generateToken": {
+            "hits": 5000,
+            "window": 24
+        },
+        "ServiceRequest/getServiceStatus": {
+            "hits": 5000,
+            "window": 24
+        },
+        "Logistics/getLogisticStatus": {
+            "hits": 5000,
+            "window": 24
+        },
+        "default": {
+            "hits": 5000,
+            "window": 24
+        }
+    },
+    "NOKIA_DUBAI_STAGE": {
+        "Auth/generateToken": {
+            "hits": 5000,
+            "window": 24
+        },
+        "User/getUrlWithTokenAndParams": {
+            "hits": 5000,
+            "window": 24
+        },
+        "default": {
+            "hits": 5000,
+            "window": 24
+        }
+    },
+    "REGISTRIA_STAG": {
+        "Auth/generateToken": {
+            "hits": 5000,
+            "window": 24
+        },
+        "ServiceRequest/fetchSlots": {
+            "hits": 5000,
+            "window": 24
+        },
+        "ServiceRequest/createServiceRequest": {
+            "hits": 5000,
+            "window": 24
+        },
+        "Claim/getClaimDetails": {
+            "hits": 5000,
+            "window": 24
+        },
+        "SoldPlan/createSoldPlan": {
+            "hits": 5000,
+            "window": 24
+        },
+        "SoldPlan/cancelContract,": {
+            "hits": 5000,
+            "window": 24
+        },
+        "SoldPlan/updateSoldPlanDetails": {
+            "hits": 5000,
+            "window": 24
+        },
+        "ServiceRequest/updateServiceRequestStatus": {
+            "hits": 5000,
+            "window": 24
+        },
+        "ServiceRequest/getServiceRequestDetails": {
+            "hits": 5000,
+            "window": 24
+        },
+        "Claim/raiseClaim": {
+            "hits": 5000,
+            "window": 24
+        },
+        "default": {
+            "hits": 5000,
+            "window": 24
+        }
+    },
+    "POORVIKA_STAG": {
+        "Auth/generateToken": {
+            "hits": 5000,
+            "window": 24
+        },
+        "SoldPlan/createSoldPlan": {
+            "hits": 5000,
+            "window": 24
+        },
+        "SoldPlan/cancelContract": {
+            "hits": 5000,
+            "window": 24
+        },
+        "SoldPlan/updateSoldPlanDetails": {
+            "hits": 5000,
+            "window": 24
+        },
+        "SoldPlan/checkEligibility": {
+            "hits": 5000,
+            "window": 24
+        },
+        "default": {
+            "hits": 5000,
+            "window": 24
+        }
+    },
+    "NOKIA_INDIA_STAG": {
+        "Auth/generateToken": {
+            "hits": 5000,
+            "window": 24
+        },
+        "default": {
+            "hits": 5000,
+            "window": 24
+        }
+    },
+    "DMI":{
+        "/financepartners/dmi/getApplicableOffers":{
+            "hits": 2,
+            "window": 60
+        }
+    },
+    "default": {
+        "hits": 5000,
+        "window": 24
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "bluedart": {
+        "LicenseKey": "some_secret_code",
+        "clientName":"Bluedart"
+
+    },
+    "flipkart": {
+        "LicenseKey": "Basic c2Z0ZXN0OnVrc3lz",
+        "clientName":"FLIPKART_STAGE"
+    }
+}

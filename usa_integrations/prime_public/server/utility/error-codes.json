@@ -1,0 +1,52 @@
+{
+	"DUP_REQ": {
+		"Status": 400,
+		"statusCode": "REQUEST_ALREADY_RAISED",
+		"msg": "Request already raised for this device"
+	},
+	"SERV_ERR": {
+		"Status": 500,
+		"statusCode": "INTERNAL_SERVER_ERROR",
+		"msg": "An unknown error occurred"
+	},
+	"INSUF_PARAM": {
+		"msg": "Something went wrong",
+		"status": 400,
+		"statusCode": "INSUFFICIENT_PARAMS"
+	},
+	"INV_PARAM": {
+		"msg": "Something went wrong",
+		"status": 400,
+		"statusCode": "INVALID_PARAMS"
+	},
+	"INV_PRODUCT": {
+		"msg": "Something went wrong",
+		"status": 400,
+		"statusCode": "INVALID_PRODUCT"
+	},
+	"INV_BRAND": {
+		"msg": "Something went wrong",
+		"status": 400,
+		"statusCode": "INVALID_BRAND"
+	},
+	"INV_SERVICETYPE": {
+		"msg": "Something went wrong",
+		"status": 400,
+		"statusCode": "INVALID_SERVICETYPE"
+	},
+	"INV_DATETIME": {
+		"msg": "Something went wrong",
+		"status": 400,
+		"statusCode": "INVALID_DATETIME"
+	},
+	"INV_ZIPCODE": {
+		"msg": "Something went wrong",
+		"status": 400,
+		"statusCode": "INVALID_ZIPCODE"
+	},
+	"INV_PROVIDER": {
+		"msg": "Something went wrong",
+		"status": 400,
+		"statusCode": "INVALID_PROVIDER"
+	}
+}

@@ -1,0 +1,47 @@
+def project_path = "/Users/Servify/.jenkins/workspace/Prime\ Public\ Local\ Pipeline"
+
+pipeline {
+    agent any 
+    tools {
+        nodejs "nodejs"
+    }
+    stages {
+        stage('Build') { 
+            steps {
+                sh 'npm install'
+                sh 'npm install -g pm2'
+                sh 'echo $PATH'
+            }
+        }
+        stage('Unit Tests') { 
+            steps {
+                sh("pwd");
+                script {
+                    catchError (message: 'Unit test failed', buildResult: 'SUCCESS', stageResult: 'UNSTABLE'){
+                        echo "Running Unit Tests..."
+                        sh "ansible-playbook plays/deployment_pipeline/unit_tests.yml"
+                    }
+                }
+            }
+        }
+        stage('Integration Tests') { 
+            steps {
+                script {
+                    withEnv(['TEST_PORT=8064']) {
+                        echo "TEST_PORT is ${TEST_PORT}"
+                        catchError (message: 'Integration test failed', buildResult: 'SUCCESS', stageResult: 'UNSTABLE'){
+                            sh "ansible-playbook plays/deployment_pipeline/integration_deploy.yml --extra-vars 'project_path=$project_path'"
+                            sh "ansible-playbook plays/deployment_pipeline/integration_tests.yml"
+                        }
+                    }
+                }
+            }
+        }
+        stage('Deploy') { 
+            steps {
+                // sh "pm2 start . --name 'public:8063'"
+                echo "Deploying"
+            }
+        }
+    }
+}

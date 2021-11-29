@@ -1,0 +1,12 @@
+{
+	"HANGOUTS": {
+		"WebhookUrl": "https://chat.googleapis.com/v1/spaces/AAAA9Yt_-vM/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=R0_rKFNkPzc-NSclzfkO2D33NNR_gQS0FYZMmXDrLs8%3D",
+		"WebhookType": "HANGOUTS",
+		"RequestMethod": "POST",
+		"RequestHeaders": {},
+		"dataToLog": {
+			"request": true,
+			"response": true
+		}
+	}
+}

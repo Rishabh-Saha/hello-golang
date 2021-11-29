@@ -1,0 +1,10 @@
+{
+	"name": "Voucher",
+	"plural": "Voucher",
+	"base": "Model",
+	"properties": {},
+	"validations": [],
+	"relations": {},
+	"acls": [],
+	"methods": {}
+}

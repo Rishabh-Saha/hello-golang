@@ -1,0 +1,14 @@
+{
+    "/User/requestPIN1": {
+        "ServifyTest_Encrypt": {
+            "keys": {
+                "MobileNumber": "MobileNo"
+            }
+        },
+        "ServifyTest": {
+            "keys": {
+                "MobileNumber": "MobileNo"
+            }
+        }
+    }
+}

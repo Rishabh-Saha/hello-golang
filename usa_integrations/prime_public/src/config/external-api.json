@@ -1,0 +1,57 @@
+{
+    "coreApi": {
+        "module": "coreApi",
+        "authToken": "JABXC7LLJA0ERXUN3MUKQ74JBNPY1C91",
+        "authTokenKey": "module-auth",
+        "accessCode": "JABXC7LLJA0ERXUN3MUKQ74JBNPY1C91",
+        "name": "gsxProd",
+        "baseUrl": "http://172.21.3.37:3001",
+        "versionUrl": "http://172.21.3.37:3001/api/",
+        "restApiRoot": "/api/"
+    },
+    "logisticsApi": {
+        "module": "logisticsApi",
+        "authToken": "XLXVANJQA9XOC3M0TQ3ID7OUMCMSPKHT",
+        "authTokenKey": "module-auth",
+        "name": "gsxProd",
+        "baseUrl": "http://172.21.3.37:3002",
+        "versionUrl": "http://172.21.3.37:3002/api/",
+        "restApiRoot": "/api/"
+    },
+    "billingApi": {
+        "module": "billingApi",
+        "authToken": "W78FXKXN6MW7WRSABEBPN4XE4WP9KAGT",
+        "authTokenKey": "module-auth",
+        "name": "gsxProd",
+        "baseUrl": "http://13.127.11.21:5003",
+        "versionUrl": "http://13.127.11.21:5003/api/v1/",
+        "restApiRoot": "/api/v1/"
+    },
+    "partApi": {
+        "module": "partApi",
+        "authToken": "tuuEKL33rsG78fgwJIs5QGdqA431cZAdxRSKjIB2wiPXQC85FjPW60TglRs7dee0",
+        "authTokenKey": "module-auth",
+        "name": "gsxProd",
+        "baseUrl": "http://staging-2.servify.in:4000",
+        "versionUrl": "http://staging-2.servify.in:4000/api/v1/",
+        "restApiRoot": "/api/v1/"
+    },
+    "aegisApi": {
+        "module": "aegisApi",
+        "authToken": "XLXVANJQA9XOC3M0TQ3ID7OUMCMSPKHT",
+        "authTokenKey": "module-auth",
+        "name": "aegisApi",
+        "baseUrl": "http://172.21.3.37:3005",
+        "versionUrl": "http://172.21.3.37:3005/api/",
+        "restApiRoot": "/api/"
+    },
+    "webApi": {
+        "module": "webApi",
+        "authToken": "9WcExcByblWWPFB8ruOKAgiNgTiAebHk",
+        "authTokenKey": "primeToken",
+        "name": "webApi",
+        "baseUrl": "http://staging.servify.in:3000",
+        "versionUrl": "http://staging.servify.in:3000/api/v1/",
+        "restApiRoot": "/api/v1/"
+    }
+}

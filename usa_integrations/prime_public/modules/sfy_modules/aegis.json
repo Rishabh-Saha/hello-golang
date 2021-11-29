@@ -1,0 +1,10 @@
+{
+	"name": "Aegis",
+	"plural": "Aegis",
+	"base": "Model",
+	"properties": {},
+	"validations": [],
+	"relations": {},
+	"acls": [],
+	"methods": {}
+}
