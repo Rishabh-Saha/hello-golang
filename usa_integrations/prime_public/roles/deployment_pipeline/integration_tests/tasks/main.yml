@@ -1,9 +1,0 @@
----
-
-- name: Run Integration tests
-  command: "npm run test:integration"
-  register: integration_test_result
-
-- debug: msg="{{ integration_test_result.stdout }}"
-- name: Debug integration_test_result
-  debug: msg="{{ integration_test_result.stderr }}"

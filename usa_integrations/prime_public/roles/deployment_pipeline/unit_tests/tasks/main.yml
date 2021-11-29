@@ -1,7 +1,0 @@
----
-- name: Run Unit tests
-  command: "npm run test:unit"
-  register: unit_test_output
-
-- name: Debug unit_test_output
-  debug: var=unit_test_output
